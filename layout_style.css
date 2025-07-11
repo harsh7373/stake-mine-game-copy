@@ -1,0 +1,161 @@
+body{
+    background-color: #1c2f3c;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#flex{
+display: flex;
+justify-content: center;
+margin-top: 230px;
+}
+
+#Diamond_PlaceHolder{
+    background-color: #30485d;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    margin-top: -110px;
+    border-radius: 30px;
+
+}
+
+#inner_placeholder{
+    background-color: #0f2433;
+    width: 190px;
+    height: 43px;
+    border-radius: 30px;
+    margin: 3px 10px 0px;
+    display: flex;
+}
+#DPH_image{
+    height: 30px;
+    width: 30px;
+    margin: 7px 3px;
+    background: none;
+}
+
+.DPH_diamond_img{
+    filter: invert(13%) sepia(96%) saturate(7451%) hue-rotate(276deg);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    display: none;
+}
+
+#inner_placeholder img:nth-child(2){
+    left: 13px;
+    top: 10px;
+}
+#inner_placeholder img:nth-child(4){
+    left: 50px;
+    top: 10px;
+}
+
+#inner_placeholder img:nth-child(6){
+    left: 85px;
+    top: 10px;
+}
+
+#inner_placeholder img:nth-child(8){
+    left: 121px;
+    top: 10px;
+}
+
+#inner_placeholder img:nth-child(10){
+    left: 157px;
+    top: 10px;
+}
+
+#bomb_count{
+    background-color: #0f2535;
+    width: 72px;
+    height: 45px;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+#bombcount_img{
+    width: 40px;
+    height: 40px;  
+}
+
+#board{
+    width: 300px;
+    height: 300px;
+    background-color: #0d232f;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 7px;
+}
+
+.blocks{
+background-color: #30485d;
+height: 60px;
+width: 60px;
+margin: 1%;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#points{
+    background-color: #071a26;
+    position: absolute;
+    margin-top: 310px;
+    margin-right: 227px;
+    width: 80px;
+    height: 67px;
+    border-radius: 7px;
+    color: #e1e2e2;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points_img{
+    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+    filter: invert(13%) sepia(96%) saturate(7451%) hue-rotate(276deg);
+}
+
+#next_lvl_btn{
+    color: #172e33;
+    width: 217px;
+    height: 62px;
+    background-color: #a11bf6;
+    position: absolute;
+    border-radius: 7px;
+    margin-top: 312px;
+    margin-left: 92px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.diamond_img{
+    filter: invert(13%) sepia(96%) saturate(7451%) hue-rotate(276deg);
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+.bomb_img{
+    height: 40px;
+    width: 40px;
+    display: none;
+}
